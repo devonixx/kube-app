@@ -18,7 +18,7 @@ spec:
       - name: vproapp
         image: nixxkos/vprofileapp:latest
         ports:
-         -name: vproapp-port
+        - name: vproapp-port
           containerPort: 8090
       initContainers:
         - name: init-mydb
